@@ -9,12 +9,16 @@ import { LayoutEffectExample } from './hooks/use-layout-effect';
 import { InsertionEffectExampe } from './hooks/use-insertion-effect';
 import { UseIdExample } from './hooks/use-id';
 import { TransitionExample } from './hooks/use-transition';
+import { DeferredValueExample } from './hooks/use-deferred-value';
+import { SyncExternalStoreExample } from './hooks/use-sync-external-store';
 
 function App() {
 
   return (
     <>
-      <TransitionExample />
+      <SyncExternalStoreExample />
+      {/* <DeferredValueExample /> */}
+      {/* <TransitionExample /> */}
       {/* <UseIdExample /> */}
       {/* <InsertionEffectExampe /> */}
       {/* <LayoutEffectExample /> */}
